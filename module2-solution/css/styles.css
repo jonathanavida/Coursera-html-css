@@ -8,30 +8,42 @@
 
 
 .section-header {
-	color : green;
 	float: right;
-	background-color: grey;
+	background-color: #F29238;
 	margin-bottom: 15px;
 	border: 1px solid black;
 }
 
+.menuitem-box {
+    border: 1px solid green;
+    background-color: grey;
+}
+
 h1 {
+	font-size: 1.75em;
+	padding: 20px;
+	text-align: center;
+}
+
+
+h2 {
 	font-size: 1.25em;
 	font-family: Arial;
 	margin-right: 5px;
 	margin-left: 5px;
+	padding: 10px;
 }
 
 .menuitem_description {
 	clear: both;
 	margin: 8px;
+	height: 200px;
 }
 
 
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
     padding: 15px;
   }
   .col-lg-1 {
@@ -76,7 +88,7 @@ h1 {
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    padding: 15px;
   }
   .col-md-1 {
     width: 8.33%;
